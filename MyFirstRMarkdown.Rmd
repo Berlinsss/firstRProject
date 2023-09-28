@@ -1,0 +1,17 @@
+---
+title: "Assignment1"
+author: "Bolin"
+date: "2023-09-27"
+output: html_document
+---
+
+```{r}
+
+animals = c('Snake', 'Ostrich', 'Cat', 'Spider')
+num_legs = c(0, 2, 4, 8)
+
+animals_df = data.frame(animals, num_legs)
+
+print(animals_df)
+
+```
